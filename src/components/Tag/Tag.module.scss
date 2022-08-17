@@ -4,9 +4,10 @@
   height: 45px;
   width: 78.5px;
   position: relative;
-  padding: 1px 0 2px 18px;
+  padding: 1px 0 2px 19px;
   box-sizing: border-box;
   display: flex;
+  margin-top: 3px;
 
   &__currency {
     font-weight: $font-weight-lg;
@@ -15,13 +16,13 @@
     color: $color-black;
     position: absolute;
     top: $space-xsss;
-    left: $space-xsss;
+    left: 9px;
   }
 }
 
 .price {
   font-weight: $font-weight-lg;
-  font-size: $font-size-xxl;
+  font-size: $font-size-xxxl;
   line-height: 42px;
   color: $color-black;
 }
@@ -45,6 +46,6 @@
     font-size: $font-size-xxs;
     color: $color-black;
     line-height: 12px;
-    margin-top: -4px;
+    margin-top: -2px;
   }
 }

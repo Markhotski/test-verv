@@ -8,7 +8,7 @@ $widget-height: 84px;
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 0 $space-sm;
+  padding: 0 calc($space-sm - 1px);
   border-radius: $border-radius-sm;
   border: 2px solid $color-gray;
   background: $color-white;
@@ -18,7 +18,7 @@ $widget-height: 84px;
   &_active {
     background: linear-gradient(225deg, $color-red2 0%, $color-red3 100%);
     border: none;
-    padding: 0 calc($space-sm + 2px);
+    padding: 0 calc($space-md - 2px);
 
     & .widget__info__title, .widget__info__description {
       color: $color-white;
@@ -37,6 +37,7 @@ $widget-height: 84px;
       line-height: 22px;
       color: $color-dark;
       text-transform: uppercase;
+      margin-bottom: 3px;
     }
 
     &__description {
@@ -64,4 +65,9 @@ $widget-height: 84px;
   line-height: 15px;
   display: flex;
   align-items: center;
+}
+
+.radio {
+  height: 20px;
+  width: 20px;
 }
