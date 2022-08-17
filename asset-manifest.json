@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.b672c443.css",
-    "main.js": "/static/js/main.65e82625.js",
-    "index.html": "/index.html",
-    "static/media/RadioActive.svg": "/static/media/RadioActive.fbbd8834644f1054a06fc41e0d782f61.svg",
-    "static/media/Radio.svg": "/static/media/Radio.8abbbc601a4839192da484d2970f1872.svg",
-    "main.b672c443.css.map": "/static/css/main.b672c443.css.map",
-    "main.65e82625.js.map": "/static/js/main.65e82625.js.map"
+    "main.css": "/test-verv/static/css/main.b672c443.css",
+    "main.js": "/test-verv/static/js/main.06200c18.js",
+    "index.html": "/test-verv/index.html",
+    "static/media/RadioActive.svg": "/test-verv/static/media/RadioActive.fbbd8834644f1054a06fc41e0d782f61.svg",
+    "static/media/Radio.svg": "/test-verv/static/media/Radio.8abbbc601a4839192da484d2970f1872.svg",
+    "main.b672c443.css.map": "/test-verv/static/css/main.b672c443.css.map",
+    "main.06200c18.js.map": "/test-verv/static/js/main.06200c18.js.map"
   },
   "entrypoints": [
     "static/css/main.b672c443.css",
-    "static/js/main.65e82625.js"
+    "static/js/main.06200c18.js"
   ]
 }
