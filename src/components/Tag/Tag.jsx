@@ -2,10 +2,11 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
 import styles from './Tag.module.scss';
-import image from '../../images/Tag.png';
+import imageTag from '../../images/Tag.png';
+import imageTagActive from '../../images/TagActive.png';
 
 function Tag(props) {
-  const { price } = props;
+  const { price, active } = props;
   const { t } = useTranslation();
 
   const fractionalPrice = Math.floor((price % 1) * 100);
@@ -13,7 +14,7 @@ function Tag(props) {
   return (
     <div
       className={styles.tag}
-      style={{ backgroundImage: `url(${image})` }}
+      style={{ backgroundImage: `url(${active ? imageTagActive : imageTag})` }}
     >
       <span className={styles.tag__currency}>$</span>
       <span className={styles.price}>{Math.trunc(price)}</span>
@@ -27,10 +28,12 @@ function Tag(props) {
 
 Tag.propTypes = {
   price: PropTypes.number,
+  active: PropTypes.bool,
 };
 
 Tag.defaultProps = {
   price: 0.00,
+  active: false,
 };
 
 export { Tag };

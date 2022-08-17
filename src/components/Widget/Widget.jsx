@@ -55,7 +55,7 @@ function Widget(props) {
           {description}
         </span>
       </div>
-      <Tag price={pricePerDay} />
+      <Tag price={pricePerDay} active={checked} />
     </div>
   );
 }
