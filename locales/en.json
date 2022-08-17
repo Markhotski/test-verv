@@ -1,0 +1,23 @@
+{
+  "title": "Your 3-month weight loss plan",
+  "subtitle": "Walking app to help you reach your goal.",
+  "bannerTitle": "Choose your plan",
+  "mostPopular": "Most popular",
+  "perDay": "per day",
+  "button": "Get my plan",
+  "modalTitle": "Selected plan",
+  "plans": {
+    "1-month": {
+      "title": "1-month plan",
+      "description": "${{price}} monthly"
+    },
+    "3-month": {
+      "title": "3-month plan",
+      "description": "${{price}} quaterly"
+    },
+    "lifeTime": {
+      "title": "Life time",
+      "description": "${{price}} one time fee"
+    }
+  }
+}
