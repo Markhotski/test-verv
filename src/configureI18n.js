@@ -15,6 +15,7 @@ function initI18n() {
       },
       backend: {
         loadPath: '/locales/{{lng}}.json',
+        addPath: 'locales/add/{{lng}}/{{ns}}',
       },
     });
 }
