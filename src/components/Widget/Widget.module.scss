@@ -18,7 +18,7 @@ $widget-height: 84px;
   &_active {
     background: linear-gradient(225deg, $color-red2 0%, $color-red3 100%);
     border: none;
-    padding: 0 calc($space-md - 1px);
+    padding: 0 calc($space-md - 3px);
 
     & .widget__info__title, .widget__info__description {
       color: $color-white;
@@ -62,7 +62,7 @@ $widget-height: 84px;
   text-transform: uppercase;
   font-weight: $font-weight-lg;
   font-size: $font-size-sm;
-  line-height: 15px;
+  line-height: 17px;
   display: flex;
   align-items: center;
 }
