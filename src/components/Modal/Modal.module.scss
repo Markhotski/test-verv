@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+
+.modal {
+  position: absolute;
+  width: 300px;
+  height: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: $border-radius-sm;
+  border: 2px solid $color-gray;
+  background-color: $color-white;
+  padding: $space-sm;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: $space-sm;
+
+  &__header {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: $font-size-lg;
+    color: $color-black;
+    border-bottom: 1px solid $color-gray;
+    padding-bottom: $space-sm;
+  }
+
+  &__content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $font-size-md;
+    color: $color-dark;
+  }
+}

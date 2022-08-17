@@ -1,0 +1,67 @@
+@import '../../styles/variables.scss';
+
+$widget-height: 84px;
+
+.widget {
+  box-sizing: border-box;
+  height: $widget-height;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 $space-sm;
+  border-radius: $border-radius-sm;
+  border: 2px solid $color-gray;
+  background: $color-white;
+  cursor: pointer;
+  gap: $space-sm;
+
+  &_active {
+    background: linear-gradient(225deg, $color-red2 0%, $color-red3 100%);
+    border: none;
+    padding: 0 calc($space-sm + 2px);
+
+    & .widget__info__title, .widget__info__description {
+      color: $color-white;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: auto;
+
+    &__title {
+      font-weight: $font-weight-xl;
+      font-size: $font-size-lg;
+      line-height: 22px;
+      color: $color-dark;
+      text-transform: uppercase;
+    }
+
+    &__description {
+      font-weight: $font-weight-sm;
+      font-size: $font-size-xs;
+      line-height: 14px;
+      color: $color-dark;
+    }
+  }
+
+  &__mostPopular {
+    margin-bottom: 4px;
+  }
+}
+
+.mostPopular {
+  height: 19px;
+  width: 125px;
+  box-sizing: border-box;
+  padding: 2px 5px;
+  color: $color-black;
+  text-transform: uppercase;
+  font-weight: $font-weight-lg;
+  font-size: $font-size-sm;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+}

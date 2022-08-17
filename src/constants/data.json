@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "mostPopular": false,
+    "pricePerDay": 1.28,
+    "price": 49.99,
+    "type": "1-month"
+  },
+  {
+    "id": 2,
+    "mostPopular": true,
+    "pricePerDay": 0.83,
+    "price": 69.99,
+    "type": "3-month"
+  },
+  {
+    "id": 3,
+    "mostPopular": false,
+    "pricePerDay": 0.55,
+    "price": 99.99,
+    "type": "lifeTime"
+  }
+]

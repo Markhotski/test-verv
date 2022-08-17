@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss'; 
+
+.container {
+  padding: $space-lg $space-md $space-md;
+  width: 100%;
+  max-width: $max-content-width;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

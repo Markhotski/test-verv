@@ -1,0 +1,68 @@
+@import '../../styles/variables.scss';
+
+.banner {
+  &__grid {
+    padding: $space-sm 0 $space-md;
+  }
+
+  &__title {
+    margin-bottom: $space-md;
+  }
+
+  &__subtitle {
+    margin-bottom: $space-md;
+  }
+}
+
+.title {
+  font-weight: $font-weight-lg;
+  font-size: $font-size-xl;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.41px;
+  text-transform: uppercase;
+  color: $color-dark;
+  text-align: center;
+  display: block;
+}
+
+.subtitle {
+  font-weight: $font-weight-md;
+  font-size: $font-size-lg;
+  line-height: 22px;
+  text-align: center;
+  color: $color-dark;
+  text-align: center;
+  display: block;
+}
+
+.bannerTitle {
+  font-weight: $font-weight-lg;
+  font-size: $font-size-xxl;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.41px;
+  color: $color-dark;
+}
+
+.button {
+  border-radius: 100px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  background-color: $color-red1;
+  color: $color-white;
+  font-size: $font-size-xl;
+  font-weight: $font-weight-lg;
+  padding: $space-xxs $space-md $space-xs;
+  text-align: center;
+  border: none;
+  width: 100%;
+  cursor: pointer
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: $space-sm;
+}

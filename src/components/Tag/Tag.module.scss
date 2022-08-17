@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.tag{
+  height: 45px;
+  width: 78.5px;
+  position: relative;
+  padding: 1px 0 2px 18px;
+  box-sizing: border-box;
+  display: flex;
+
+  &__currency {
+    font-weight: $font-weight-lg;
+    font-size: $font-size-md;
+    line-height: 19px;
+    color: $color-black;
+    position: absolute;
+    top: $space-xsss;
+    left: $space-xsss;
+  }
+}
+
+.price {
+  font-weight: $font-weight-lg;
+  font-size: $font-size-xxl;
+  line-height: 42px;
+  color: $color-black;
+}
+
+.pennies {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 2px;
+  padding-top: 7px;
+
+  &__amount {
+    font-weight: $font-weight-lg;
+    font-size: $font-size-md;
+    line-height: 19px;
+    color: $color-black;
+  }
+
+  &__text {
+    font-weight: $font-weight-sm;
+    font-size: $font-size-xxs;
+    color: $color-black;
+    line-height: 12px;
+    margin-top: -4px;
+  }
+}
